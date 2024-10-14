@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clicker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main">
+	<div class="container2">
+	<h1>Игра  Кликер</h1>
+	<div class="coins">
+		<h2 id="coin">0</h2>
+	</div>
+	<div class="clicker">
+		<img src="notcoin.png" width="500px" height="500px" onclick="CoinPlus()">
+	</div>
+	<div id="shop">
+		<div id="lamb">
+			<h1>Автосалон</h1>
+			<h2>Стоимость: 500  монет</h2>
+			<img src="lamba.png" width="800px" height="400px" >
+			<h2 id="buy"></h2>
+			<button onclick="BuyLamb()" class="BuyApgreid">Купить</button>
+	</div>
+	<div id="bmw">
+		<h2>Стоимость: 200</h2>
+		<img src="bmw.png" width="800px">
+		<br>
+		<button onclick="BuyBmw()" class="BuyApgreid">Купить</button>
+	</div>
+		</div>
+		
+	<div class="ApgreidShop">
+		<h1>Магазин Апгрейдов</h1>
+		<h2>Стоимость: 50 монет</h2>
+		<button onclick="Apgreid()" class="BuyApgreid">Купить апгрейд</button>
+		<br>
+		<h2>Стоимость: 100 монет</h2>
+		<button onclick="Apgreid2()" class="BuyApgreid2">Купить Апгрейд № 2</button>
+	</div>
+	<div class="HowToplay">
+		<h2 id="HowToPlay"></h2>
+		<button onclick="HowToPlay()" class="HowToplayButton">Как играть ?</button>
+		<button onclick="Back()" class="BackButton"> назад(для как играть )</button>
+	</div>
+	<div id="allbisnes">
+		<h1>Бизнесы</h1>
+		<div id="smalleatshop">
+		<h1>Открыть маленький продуктовый магазин</h1>
+		<img src="smalleatshop.png" width="400px">
+		<h1>Стоимость:250</h1>
+		<br>
+		<button onclick="OpenSmallEatShop()">Открыть</button>
+	</div>
+	<div id="bigeatshop">
+		<h1>Открыть большой продуктовый магазин</h1>
+		<img src="bigeatshop.png" width="400px">
+		<h1>Стоимость:350</h1>
+		<button onclick="OpenBigEatShop()">Открыть</button>
+	</div>
+	</div>
+
+	<div id="Bisnes">
+		<h1>Скоро выйдет</h1>
+		<h2>ИТ-компания</h2>
+		<h2>Стоимость: 200 монет</h2>
+		<button onclick="OpenBisnes()">Открыть ИТ-компанию</button>
+	</div>
+</div>
+	</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
